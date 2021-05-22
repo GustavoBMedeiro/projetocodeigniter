@@ -9,7 +9,7 @@ class SiteController extends BaseController
         helper('math');
         helper('debug');
 
-        $adicao = adicionar(4, 9);
+      
 
         
         $dados = ['titulo' => 'HOME', 'data' => date('d-m-Y', now())];
